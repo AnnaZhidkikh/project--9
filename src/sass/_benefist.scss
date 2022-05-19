@@ -21,17 +21,23 @@
       letter-spacing: 0.08em;
       color: $secondary-color;
   }  
+  .benefits__title {
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
 }
 @media screen and (max-width: 767.98px) {
-  .benefits {
-      padding-top: 40px;
-  }
+
+  .benefits__container {
+    padding-top: 32px;
+    margin-top: -1px;
+    background: linear-gradient(to bottom, #111518 75%, white 25%);
+    }
   .benefits__title {
       max-width: 50%;
       font-weight: 800;
       font-size: 20px;
       line-height: 1.35;
-      letter-spacing: 0.03em;
       color: #FFFFFF;
       margin-bottom: 32px;
   } 
@@ -47,6 +53,15 @@
   
 }
 @media screen and (min-width: 768px) {
+    .benefits__container {
+        margin-top: -1px;
+        background: linear-gradient(to bottom, #111518 50%, white 50%);
+        }
+    .benefits {
+        padding-top: 0;
+       
+    }
+ 
   .benefits__title {
       max-width: 100%;
       text-align: center;
@@ -55,12 +70,7 @@
       font-size: 26px;
       line-height: 1.31;
       text-align: center;
-      letter-spacing: 0.03em;
-      color: #FFFFFF
-     
-  }
-  .benefits {
-      padding-top: 40px;
+      color: #FFFFFF;
   }
   .benefits__wrapper {
       padding: 40px 92px;
